@@ -25,7 +25,7 @@ h2{
 
     /* Full height */
     height: 90%; 
-    
+    margin-left: 2rem;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -42,7 +42,7 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2em;
     padding: 5rem;
-    box-shadow: 0px 30px 30px rgb(136, 136, 136);
+    box-shadow: 0px 30px 30px rgb(12, 134, 22);
 
 }
 
@@ -60,11 +60,14 @@ h2{
 #lul{
     background-image: url('./images/lul.jpg');
 }
+#trihard{
+    background-image: url('./images/trihard.png');
+}
 
 footer{
     background-color: aliceblue;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 15%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
     padding: 1rem;

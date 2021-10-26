@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <h1>Top 5 Twitch Emotes!</h1>
+    <h1>Top 6 Twitch Emotes!</h1>
 
     
     
@@ -44,9 +44,35 @@
             <p><strong>The LUL emote depicts a stylized version of the late TotalBiscuits laughing face. This emote is used whenever something funny or laughable appears on stream.</strong></p>
             <p>LUL can be understood as ‘Lame Uncomfortable Laugh’ but the naming of this emote has nothing to do with that. LUL was simply the name that was given to the emote when its predecessor was first uploaded to BTTV.</p>
         </article>
+    <div id="trihard" class="parallax"></div>
+        <article class="popis">
+            <h2>TriHard</h2>
+            <p>The TriHard emote has many different meanings. The naming suggests you to use it whenever someone is trying too hard on stream but the emote can also be used to convey nervousness, surprise, fear and so on.</p>
+            
+        </article>
 
     <footer>
         <p>Our picks were insipired by <a href="https://streamerfacts.com/twitch-emotes/">streamerfacts.com</a>. </p>
     </footer>
+
+    <script type="text/javascript">
+        document.addEventListener("mousemove", function(e){
+            const content = document.querySelectorAll('h1, .popis')
+            const bg = document.querySelectorAll('html, body')
+
+            bg[0].style.backgroundColor = "rgb(" + e.pageY/30 + "," + 25 + e.pageX/20 + "," +  e.pageX/8 + ")";
+            bg[1].style.backgroundColor = "rgb(" + e.pageY/30 + "," + 25 + e.pageX/20 + "," +   e.pageX/8 + ")";
+           
+            content[0].style.boxShadow =  "2px 30px " + 2+ e.pageX/200 + "px" +  " rgb(" + e.pageY/60 + "," + 25 + e.pageX/100 + "," +  20 + e.pageX/20 + ")";
+            content[1].style.boxShadow =  "2px 30px " + 2+ e.pageX/200 + "px" +  " rgb(" + e.pageY/60 + "," + 25 + e.pageX/100 + "," +  20 + e.pageX/20 + ")";
+            content[2].style.boxShadow =  "2px 30px " + 2+ e.pageX/200 + "px" +  " rgb(" + e.pageY/60 + "," + 25 + e.pageX/100 + "," +  20 + e.pageX/20 + ")";
+            content[3].style.boxShadow =  "2px 30px " + 2+ e.pageX/200 + "px" +  " rgb(" + e.pageY/60 + "," + 25 + e.pageX/100 + "," +  20 + e.pageX/20 + ")";
+            content[4].style.boxShadow =  "2px 30px " + 2+ e.pageX/200 + "px" +  " rgb(" + e.pageY/60 + "," + 25 + e.pageX/100 + "," +  20 + e.pageX/20 + ")";
+            content[5].style.boxShadow =  "2px 30px " + 2+ e.pageX/200 + "px" +  " rgb(" + e.pageY/60 + "," + 25 + e.pageX/100 + "," +  20 + e.pageX/20 + ")";
+            content[6].style.boxShadow =  "2px 30px " + 2+ e.pageX/200 + "px" +  " rgb(" + e.pageY/60 + "," + 25 + e.pageX/100 + "," +  20 + e.pageX/20 + ")";
+        })
+
+    </script>
+
 </body>
 </html>
